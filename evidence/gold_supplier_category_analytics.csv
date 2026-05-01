@@ -1,0 +1,16 @@
+category_standardized,state_clean,supplier_count,total_annual_spend,avg_completeness_score,max_duplicate_record_count
+Industrial Supplies,CA,1,78250.5,0.9583333333333334,4
+"Maintenance, Repair, and Operations",,5,10126608.86,1.0,171
+,IL,1,0.0,0.75,3
+Medical Devices,MA,1,98200.0,0.9375,2
+IT Services,NY,1,124500.22,0.96875,5
+Professional Services,TX,1,0.0,1.0,1
+Office Supplies,,5,10007583.03,1.0,171
+Electronics,,5,8642550.6,1.0,171
+Raw Materials,,5,8471241.420000002,1.0,171
+,CA,1,0.0,0.75,4
+Professional Services,CO,1,0.0,1.0,2
+Packaging,,5,8125712.48,1.0,171
+,NY,1,0.0,0.75,5
+Office Supplies,IL,1,20110.8,0.875,3
+,CO,1,0.0,0.75,2

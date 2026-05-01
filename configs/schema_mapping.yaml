@@ -1,0 +1,134 @@
+sources:
+  conference_csv:
+    description: Messy conference supplier list exported by an event team.
+    record_type: supplier_profile
+    format: csv
+    path: data/raw/conference/conference_suppliers.csv
+    source_priority: 3
+    column_mapping:
+      supplier_name: company_name
+      email: contact_email
+      phone: phone_number
+      address: address
+      city: city
+      state: state
+      country: country
+      category: category
+      naics_code: naics_code
+      event_name: event_name
+
+  government_vendor:
+    description: Public vendor registration dataset with government-style fields.
+    record_type: supplier_profile
+    format: csv
+    path: data/raw/government/government_vendors.csv
+    source_priority: 1
+    column_mapping:
+      supplier_name: legal_business_name
+      email: vendor_email
+      phone: vendor_phone
+      address: street_address
+      city: city_name
+      state: state_code
+      country: country_code
+      category: vendor_category
+      naics_code: naics
+      tax_id: tax_identifier
+      small_business_flag: small_business_flag
+
+  erp_export:
+    description: Coupa/SAP-style supplier master export.
+    record_type: supplier_profile
+    format: json
+    path: data/raw/erp/erp_suppliers.json
+    source_priority: 2
+    column_mapping:
+      supplier_name: vendor_name
+      email: email_address
+      phone: phone
+      address: billing_address
+      city: city
+      state: region
+      country: country
+      category: category_name
+      tax_id: tax_id
+      annual_spend: annual_spend
+      currency: currency
+
+  supplier_activity_api:
+    description: Batch extract from a supplier activity API.
+    record_type: supplier_activity
+    format: json
+    path: data/raw/activity/supplier_activity.json
+    source_priority: 4
+    column_mapping:
+      supplier_name: activity_supplier_name
+      email: activity_email
+      phone: activity_phone
+      city: city
+      state: state
+      country: country
+      activity_count: activity_count
+      last_activity_date: last_activity_date
+      risk_signal: risk_signal
+
+  kaggle_procurement_kpi:
+    description: Kaggle Procurement KPI Analysis Dataset with purchase orders, supplier delivery, defect, compliance, and pricing metrics.
+    record_type: procurement_transaction
+    format: csv
+    path: data/raw/kaggle/procurement_kpi.csv
+    source_priority: 5
+    dataset_url: https://www.kaggle.com/datasets/shahriarkabir/procurement-kpi-analysis-dataset
+    license: CC0 Public Domain
+    column_mapping:
+      supplier_name: Supplier
+      category: Item_Category
+      po_id: PO_ID
+      order_date: Order_Date
+      delivery_date: Delivery_Date
+      order_status: Order_Status
+      quantity: Quantity
+      unit_price: Unit_Price
+      negotiated_price: Negotiated_Price
+      defective_units: Defective_Units
+      compliance_status: Compliance
+
+canonical_columns:
+  - supplier_name
+  - email
+  - phone
+  - address
+  - city
+  - state
+  - country
+  - category
+  - naics_code
+  - tax_id
+  - annual_spend
+  - currency
+  - event_name
+  - small_business_flag
+  - activity_count
+  - last_activity_date
+  - risk_signal
+  - po_id
+  - order_date
+  - delivery_date
+  - order_status
+  - quantity
+  - unit_price
+  - negotiated_price
+  - defective_units
+  - compliance_status
+
+category_aliases:
+  information technology: IT Services
+  it services: IT Services
+  tech services: IT Services
+  industrial supplies: Industrial Supplies
+  office supplies: Office Supplies
+  medical devices: Medical Devices
+  professional services: Professional Services
+  mro: Maintenance, Repair, and Operations
+  packaging: Packaging
+  raw materials: Raw Materials

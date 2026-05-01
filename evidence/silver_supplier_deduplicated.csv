@@ -1,0 +1,795 @@
+master_supplier_id,source_system,supplier_name_clean,supplier_name_normalized,dedupe_key,duplicate_record_count,duplicate_score,record_rank,is_master_record,annual_spend_amount,risk_signal,completeness_score
+55242cf3d6caafd74f7c9420445855760ab03a60c9394061bf545178ce057501,conference_csv,Abc Tech Llc,ABC TECH,phone:2125550199,5,100.0,3,False,,,1.0
+55242cf3d6caafd74f7c9420445855760ab03a60c9394061bf545178ce057501,supplier_activity_api,Abc Tech Llc,ABC TECH,phone:2125550199,5,100.0,5,False,,low,0.75
+55242cf3d6caafd74f7c9420445855760ab03a60c9394061bf545178ce057501,government_vendor,Abc Technologies,ABC TECH,phone:2125550199,5,100.0,1,True,,,1.0
+55242cf3d6caafd74f7c9420445855760ab03a60c9394061bf545178ce057501,conference_csv,Abc Technologies Llc,ABC TECH,phone:2125550199,5,100.0,2,False,,,1.0
+55242cf3d6caafd74f7c9420445855760ab03a60c9394061bf545178ce057501,erp_export,Abc Technologies Llc,ABC TECH,phone:2125550199,5,100.0,4,False,124500.22,,0.875
+7645b2e9b68ba0988646c2394aacb08b222dd39d16a2d5eaa6d164949dcf2c49,government_vendor,Acme Medical Devices,ACME MEDICAL DEVICES,phone:6175550103,2,100.0,1,True,,,1.0
+7645b2e9b68ba0988646c2394aacb08b222dd39d16a2d5eaa6d164949dcf2c49,erp_export,Acme Medical Devices,ACME MEDICAL DEVICES,phone:6175550103,2,100.0,2,False,98200.0,,0.875
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,1,True,20944.559999999998,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,2,False,35861.32,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,3,False,57421.799999999996,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,4,False,19324.44,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,5,False,60625.770000000004,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,6,False,3065.78,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,7,False,19731.25,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,8,False,11282.88,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,9,False,123293.73999999999,high,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,10,False,54508.52,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,11,False,2658.96,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,12,False,57382.0,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,13,False,25322.82,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,14,False,47230.68,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,15,False,51374.75,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,16,False,8223.12,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,17,False,120772.8,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,18,False,50424.0,high,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,19,False,100577.61,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,20,False,69427.35,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,21,False,13799.400000000001,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,22,False,16184.480000000001,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,23,False,66556.95,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,24,False,86526.78,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,25,False,16856.22,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,26,False,26983.04,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,27,False,87308.07,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,28,False,32213.61,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,29,False,37945.5,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,30,False,43717.479999999996,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,31,False,53044.26,high,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,32,False,1933.84,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,33,False,31342.56,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,34,False,10372.08,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,35,False,43253.28,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,36,False,13662.0,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,37,False,28494.1,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,38,False,111710.40000000001,high,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,39,False,17466.4,high,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,40,False,49190.72,high,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,41,False,126157.5,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,42,False,27037.339999999997,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,43,False,103862.34000000001,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,44,False,34310.76,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,45,False,170971.62,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,46,False,62442.94,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,47,False,24467.08,high,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,48,False,12759.12,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,49,False,1230.6299999999999,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,50,False,27174.239999999998,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,51,False,76517.1,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,52,False,58799.72,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,53,False,138923.69999999998,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,54,False,10434.0,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,55,False,102935.73,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,56,False,9618.24,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,57,False,163878.0,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,58,False,101708.15000000001,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,59,False,47836.8,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,60,False,134704.19999999998,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,61,False,56385.78,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,62,False,33050.600000000006,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,63,False,136814.96,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,64,False,33103.98,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,65,False,54458.73,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,66,False,175736.28,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,67,False,105300.52,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,68,False,158918.87,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,69,False,11113.5,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,70,False,2861.1,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,71,False,137344.5,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,72,False,25362.81,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,73,False,124201.71999999999,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,74,False,31310.28,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,75,False,86979.1,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,76,False,7956.0,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,77,False,117819.0,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,78,False,61699.409999999996,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,79,False,75148.5,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,80,False,31605.210000000003,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,81,False,62417.659999999996,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,82,False,31381.46,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,83,False,38032.479999999996,high,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,84,False,46776.36,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,85,False,39558.49,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,86,False,7443.72,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,87,False,5621.0,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,88,False,64894.5,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,89,False,14729.33,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,90,False,62417.280000000006,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,91,False,49128.659999999996,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,92,False,36880.48,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,93,False,107225.64,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,94,False,17226.56,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,95,False,21792.44,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,96,False,15524.669999999998,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,97,False,55970.45,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,98,False,80450.05,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,99,False,7281.57,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,100,False,74478.45,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,101,False,34227.3,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,102,False,31593.76,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,103,False,19187.4,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,104,False,60152.95999999999,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,105,False,37282.76,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,106,False,18072.62,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,107,False,56727.880000000005,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,108,False,49032.75,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,109,False,13718.060000000001,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,110,False,114828.84,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,111,False,59199.76,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,112,False,156673.99,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,113,False,186986.59,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,114,False,94424.26000000001,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,115,False,35377.68,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,116,False,69215.22,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,117,False,25736.64,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,118,False,12803.7,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,119,False,83088.70999999999,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,120,False,84827.76,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,121,False,65638.31999999999,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,122,False,85038.89,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,123,False,36186.78,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,124,False,43312.32,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,125,False,25460.399999999998,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,126,False,39141.3,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,127,False,29211.48,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,128,False,121703.20000000001,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,129,False,1306.2,low,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,130,False,31914.92,high,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,131,False,59062.74,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,132,False,24947.899999999998,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,133,False,111608.81999999999,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,134,False,48298.24,high,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,135,False,44743.5,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,136,False,73295.16,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,137,False,95435.96,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,138,False,67186.34,high,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,139,False,27102.64,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,140,False,68916.12,medium,1.0
+ab5ad30e0fdba4dddc0eac46c4648f5d3abe6bca426ade6a78840ef8ceac88c0,kaggle_procurement_kpi,Alpha Inc,ALPHA,name:ALPHA,141,100.0,141,False,26855.75,medium,1.0
+6f50f6245e4eb15c2bceb2750ab588908b99e94fa8ba343fee05a9721fcd65c7,conference_csv,Bad Email Partners,BAD EMAIL PARTNERS,phone:3035550102,2,100.0,1,True,,,1.0
+6f50f6245e4eb15c2bceb2750ab588908b99e94fa8ba343fee05a9721fcd65c7,supplier_activity_api,Bad Email Partners,BAD EMAIL PARTNERS,phone:3035550102,2,100.0,2,False,,high,0.75
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,1,True,128378.87999999999,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,2,False,432900.0,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,3,False,374300.0,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,4,False,84400.0,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,5,False,75600.0,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,6,False,26059.83,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,7,False,31440.85,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,8,False,82355.40000000001,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,9,False,17387.52,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,10,False,43607.200000000004,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,11,False,94303.36,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,12,False,79704.84000000001,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,13,False,5624.65,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,14,False,41943.0,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,15,False,5999.28,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,16,False,45313.200000000004,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,17,False,163481.65,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,18,False,70826.68000000001,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,19,False,140810.76,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,20,False,120159.8,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,21,False,173286.0,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,22,False,81401.5,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,23,False,165110.34,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,24,False,71762.53,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,25,False,155111.25,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,26,False,3256.32,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,27,False,57015.840000000004,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,28,False,85898.54,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,29,False,13821.509999999998,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,30,False,90354.59999999999,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,31,False,15642.640000000001,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,32,False,23296.519999999997,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,33,False,19401.2,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,34,False,33483.31,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,35,False,172249.2,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,36,False,51368.6,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,37,False,59419.85,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,38,False,46876.079999999994,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,39,False,18767.98,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,40,False,21360.64,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,41,False,124916.39,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,42,False,25604.61,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,43,False,27701.469999999998,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,44,False,14172.480000000001,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,45,False,9180.4,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,46,False,47383.7,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,47,False,55140.4,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,48,False,67314.72,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,49,False,40044.18,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,50,False,20307.51,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,51,False,48483.200000000004,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,52,False,86594.16,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,53,False,111223.44,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,54,False,35270.729999999996,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,55,False,79256.48,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,56,False,21264.33,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,57,False,44555.0,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,58,False,44748.22,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,59,False,12364.210000000001,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,60,False,141488.53999999998,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,61,False,170666.4,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,62,False,29389.08,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,63,False,12306.75,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,64,False,90800.59999999999,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,65,False,35546.85,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,66,False,15098.859999999999,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,67,False,17776.59,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,68,False,56798.909999999996,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,69,False,11089.78,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,70,False,52541.299999999996,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,71,False,101401.73999999999,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,72,False,82241.28,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,73,False,15138.6,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,74,False,15775.82,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,75,False,9464.2,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,76,False,10366.3,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,77,False,46390.4,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,78,False,26342.02,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,79,False,17198.44,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,80,False,27261.54,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,81,False,29185.47,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,82,False,3460.2599999999998,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,83,False,167866.44,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,84,False,151791.16,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,85,False,41312.4,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,86,False,14078.65,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,87,False,57389.68,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,88,False,82182.45,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,89,False,12973.5,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,90,False,91667.40000000001,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,91,False,64304.25,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,92,False,13043.07,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,93,False,13318.32,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,94,False,68067.6,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,95,False,50926.8,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,96,False,12816.6,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,97,False,63427.4,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,98,False,43936.740000000005,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,99,False,7992.0,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,100,False,98127.66,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,101,False,16477.23,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,102,False,16909.4,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,103,False,151809.48,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,104,False,6583.780000000001,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,105,False,63108.5,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,106,False,17385.39,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,107,False,61006.340000000004,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,108,False,127316.04000000001,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,109,False,8449.98,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,110,False,12646.300000000001,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,111,False,97244.54999999999,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,112,False,12491.74,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,113,False,79666.79999999999,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,114,False,43814.36,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,115,False,103237.68000000001,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,116,False,63620.76,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,117,False,96045.04,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,118,False,73496.61,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,119,False,19702.98,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,120,False,127963.3,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,121,False,60179.76,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,122,False,124077.59999999999,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,123,False,35216.85,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,124,False,11451.1,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,125,False,52622.5,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,126,False,121995.16,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,127,False,41329.659999999996,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,128,False,130815.9,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,129,False,78091.34,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,130,False,5729.97,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,131,False,44112.3,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,132,False,16814.4,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,133,False,25674.41,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,134,False,35402.76,low,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,135,False,180251.19,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,136,False,109844.32,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,137,False,23801.96,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,138,False,21719.0,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,139,False,196593.9,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,140,False,27096.48,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,141,False,49408.590000000004,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,142,False,2805.02,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,143,False,79410.67000000001,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,144,False,7990.37,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,145,False,54108.0,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,146,False,157904.02000000002,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,147,False,60528.18,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,148,False,11869.7,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,149,False,7586.92,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,150,False,60304.44,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,151,False,132546.96,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,152,False,41595.94,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,153,False,7239.42,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,154,False,22410.16,medium,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,155,False,23860.62,high,1.0
+3f6bda0a64d64b5286423fbf81dba0e7064061f15bdc72aecf20e2689c5788d6,kaggle_procurement_kpi,Beta Supplies,BETA SUPPLIES,name:BETASUPPLIES,156,100.0,156,False,185341.24000000002,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,1,True,56346.060000000005,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,2,False,71425.4,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,3,False,242250.0,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,4,False,65089.770000000004,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,5,False,7000.2,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,6,False,32822.5,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,7,False,100529.55,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,8,False,70525.84,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,9,False,46382.420000000006,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,10,False,12087.0,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,11,False,125312.4,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,12,False,67491.06,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,13,False,42669.759999999995,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,14,False,772.8,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,15,False,127022.09999999999,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,16,False,84118.32,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,17,False,12853.949999999999,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,18,False,45421.200000000004,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,19,False,8565.45,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,20,False,88894.95,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,21,False,78033.4,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,22,False,92612.79,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,23,False,17329.0,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,24,False,18326.24,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,25,False,28438.850000000002,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,26,False,11366.1,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,27,False,20386.85,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,28,False,30143.75,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,29,False,17573.67,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,30,False,50465.62,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,31,False,11575.560000000001,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,32,False,109817.0,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,33,False,68458.72,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,34,False,48646.509999999995,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,35,False,42979.14000000001,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,36,False,73983.24,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,37,False,14595.76,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,38,False,16749.05,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,39,False,54189.00000000001,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,40,False,33100.0,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,41,False,28698.93,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,42,False,9749.07,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,43,False,64528.8,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,44,False,57707.52,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,45,False,51846.08,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,46,False,108416.35,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,47,False,36962.97,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,48,False,26879.489999999998,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,49,False,32348.52,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,50,False,31618.89,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,51,False,71243.46,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,52,False,38285.44,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,53,False,8477.33,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,54,False,118914.48000000001,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,55,False,16914.100000000002,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,56,False,48298.58,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,57,False,50746.29,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,58,False,57103.200000000004,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,59,False,106739.27,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,60,False,75155.9,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,61,False,45834.85,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,62,False,46530.200000000004,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,63,False,27018.100000000002,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,64,False,42449.909999999996,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,65,False,39384.65,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,66,False,28171.4,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,67,False,17045.28,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,68,False,36824.04,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,69,False,108740.34,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,70,False,33967.14,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,71,False,93271.6,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,72,False,99098.55,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,73,False,17350.5,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,74,False,85770.6,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,75,False,34752.0,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,76,False,30281.219999999998,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,77,False,8626.0,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,78,False,30349.02,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,79,False,34316.16,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,80,False,4416.64,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,81,False,118304.48,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,82,False,122064.25,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,83,False,15808.52,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,84,False,42688.35,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,85,False,26718.480000000003,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,86,False,39051.54,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,87,False,89574.24,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,88,False,151927.22999999998,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,89,False,47667.68,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,90,False,24763.5,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,91,False,24662.88,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,92,False,84123.0,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,93,False,38751.840000000004,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,94,False,7321.08,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,95,False,88342.16,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,96,False,8219.88,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,97,False,77098.28,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,98,False,61482.149999999994,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,99,False,5934.8,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,100,False,4191.46,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,101,False,40824.42,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,102,False,2946.3,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,103,False,20391.35,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,104,False,31508.25,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,105,False,4895.02,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,106,False,18154.8,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,107,False,117347.76000000001,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,108,False,11679.15,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,109,False,146992.32,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,110,False,62095.04,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,111,False,97958.12,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,112,False,37363.200000000004,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,113,False,129290.85,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,114,False,66382.96,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,115,False,1757.8,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,116,False,20642.3,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,117,False,50902.97,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,118,False,18085.600000000002,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,119,False,76608.0,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,120,False,119297.2,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,121,False,18523.97,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,122,False,83482.35,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,123,False,108881.07999999999,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,124,False,34295.200000000004,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,125,False,47220.46,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,126,False,54694.14,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,127,False,58200.7,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,128,False,7710.719999999999,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,129,False,16466.04,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,130,False,97420.76999999999,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,131,False,36407.67,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,132,False,20239.8,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,133,False,15683.68,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,134,False,67494.0,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,135,False,77556.0,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,136,False,179587.76,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,137,False,96283.88,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,138,False,64942.520000000004,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,139,False,23650.2,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,140,False,69225.89,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,141,False,4060.0,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,142,False,110491.15999999999,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,143,False,41944.6,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,144,False,14851.51,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,145,False,52085.57,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,146,False,126728.84999999999,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,147,False,74895.87999999999,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,148,False,26026.18,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,149,False,70450.56999999999,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,150,False,6829.9,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,151,False,52107.3,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,152,False,13447.060000000001,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,153,False,95776.3,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,154,False,23745.15,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,155,False,130074.90000000001,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,156,False,121071.96,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,157,False,70503.12,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,158,False,1501.8200000000002,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,159,False,147050.4,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,160,False,41277.5,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,161,False,60076.08,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,162,False,74534.46,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,163,False,33904.76,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,164,False,7783.4400000000005,medium,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,165,False,62362.56,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,166,False,111159.0,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,167,False,45022.5,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,168,False,19798.15,low,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,169,False,119597.38,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,170,False,22938.12,high,1.0
+909cadacb0a9849d0ae2ad260b5a30076050668b97d154cc313c956114c7e780,kaggle_procurement_kpi,Delta Logistics,DELTA LOGISTICS,name:DELTALOGISTICS,171,100.0,171,False,71174.40000000001,high,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,1,True,72787.65,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,2,False,368400.00000000006,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,3,False,46611.81,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,4,False,34162.15,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,5,False,63087.57,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,6,False,25635.879999999997,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,7,False,6890.4,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,8,False,73676.55,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,9,False,49790.38,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,10,False,24619.039999999997,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,11,False,72821.89,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,12,False,124429.1,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,13,False,20776.6,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,14,False,65708.58,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,15,False,2695.92,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,16,False,19727.13,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,17,False,83739.05,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,18,False,142198.66,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,19,False,62765.280000000006,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,20,False,3389.3999999999996,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,21,False,98415.45000000001,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,22,False,126066.71,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,23,False,107833.49999999999,high,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,24,False,40621.57,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,25,False,178576.63999999998,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,26,False,14609.279999999999,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,27,False,30178.56,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,28,False,13985.369999999999,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,29,False,95280.42,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,30,False,37887.9,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,31,False,118825.95,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,32,False,77531.04,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,33,False,23866.92,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,34,False,99828.28,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,35,False,110660.4,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,36,False,10255.0,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,37,False,117343.42000000001,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,38,False,100037.7,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,39,False,110293.24,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,40,False,183048.24,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,41,False,20897.76,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,42,False,21167.519999999997,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,43,False,16110.900000000001,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,44,False,27672.839999999997,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,45,False,132055.56,high,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,46,False,6680.34,high,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,47,False,155865.6,high,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,48,False,105466.32,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,49,False,48007.32,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,50,False,73489.65,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,51,False,109528.34,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,52,False,57774.02,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,53,False,84981.59999999999,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,54,False,31835.78,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,55,False,26189.12,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,56,False,102095.0,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,57,False,38826.25,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,58,False,33903.76,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,59,False,120688.48,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,60,False,109944.05999999998,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,61,False,55755.700000000004,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,62,False,96353.28,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,63,False,22946.420000000002,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,64,False,28262.120000000003,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,65,False,71508.0,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,66,False,45586.799999999996,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,67,False,22446.0,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,68,False,13229.51,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,69,False,97302.57,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,70,False,22492.8,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,71,False,29760.64,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,72,False,94347.54,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,73,False,18256.28,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,74,False,72031.65,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,75,False,107116.23,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,76,False,18124.08,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,77,False,24113.59,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,78,False,115943.40000000001,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,79,False,12274.529999999999,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,80,False,4439.9,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,81,False,81378.36,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,82,False,6540.54,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,83,False,32318.37,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,84,False,167643.54,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,85,False,32410.82,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,86,False,120588.0,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,87,False,12722.08,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,88,False,54421.08,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,89,False,4477.2,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,90,False,25890.24,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,91,False,5176.81,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,92,False,128043.25,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,93,False,34496.64,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,94,False,19493.82,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,95,False,16325.619999999999,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,96,False,116270.27999999998,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,97,False,21467.05,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,98,False,84084.25,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,99,False,3350.16,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,100,False,19656.0,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,101,False,7993.94,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,102,False,122690.88,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,103,False,50037.95,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,104,False,87980.48,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,105,False,83480.04000000001,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,106,False,97562.59999999999,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,107,False,76086.8,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,108,False,23005.38,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,109,False,30423.129999999997,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,110,False,22737.25,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,111,False,17483.280000000002,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,112,False,8576.0,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,113,False,106278.7,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,114,False,41371.2,high,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,115,False,9082.36,high,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,116,False,14058.989999999998,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,117,False,52927.29,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,118,False,52394.23,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,119,False,124096.9,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,120,False,1547.1,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,121,False,14358.960000000001,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,122,False,42765.3,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,123,False,53050.579999999994,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,124,False,17889.48,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,125,False,14501.359999999999,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,126,False,61669.74,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,127,False,45084.850000000006,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,128,False,50394.75,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,129,False,48470.0,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,130,False,18828.56,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,131,False,28251.86,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,132,False,41966.4,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,133,False,12300.859999999999,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,134,False,37118.770000000004,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,135,False,23256.0,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,136,False,58361.700000000004,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,137,False,108420.0,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,138,False,92355.64,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,139,False,16356.22,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,140,False,47626.53,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,141,False,97149.68999999999,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,142,False,76687.52,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,143,False,53409.719999999994,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,144,False,53881.74,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,145,False,48840.51,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,146,False,55986.75,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,147,False,24926.42,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,148,False,31385.02,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,149,False,70530.64,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,150,False,109444.5,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,151,False,27392.58,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,152,False,91190.34,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,153,False,45325.0,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,154,False,49848.659999999996,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,155,False,38410.68,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,156,False,78397.43,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,157,False,42874.9,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,158,False,42174.36,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,159,False,109678.92,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,160,False,38394.159999999996,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,161,False,21338.52,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,162,False,8546.94,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,163,False,90235.84000000001,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,164,False,170916.38,medium,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,165,False,110851.1,low,1.0
+e633ab326209d612f56792b86632decb02e1621986aa76dbd09d1d0f53726be2,kaggle_procurement_kpi,Epsilon Group,EPSILON GROUP,name:EPSILONGROUP,166,100.0,166,False,59211.68,medium,1.0
+09f5da0c05a542e7b8cd03498dd5c6bd696c35cae79a81396a3ebcd0e2be04b0,conference_csv,Evergreen Office Supplies,EVERGREEN OFFICE SUPPLIES,phone:3125550188,3,100.0,2,False,,,0.875
+09f5da0c05a542e7b8cd03498dd5c6bd696c35cae79a81396a3ebcd0e2be04b0,supplier_activity_api,Evergreen Office Supplies,EVERGREEN OFFICE SUPPLIES,phone:3125550188,3,100.0,3,False,,low,0.75
+09f5da0c05a542e7b8cd03498dd5c6bd696c35cae79a81396a3ebcd0e2be04b0,erp_export,Evergreen Office Supplies Inc,EVERGREEN OFFICE SUPPLIES,phone:3125550188,3,100.0,1,True,20110.8,,0.875
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,1,True,83956.6,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,2,False,84832.68000000001,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,3,False,67334.32,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,4,False,12004.2,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,5,False,151761.69,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,6,False,5189.92,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,7,False,102492.0,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,8,False,82894.6,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,9,False,24668.65,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,10,False,45405.3,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,11,False,151585.99,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,12,False,30084.78,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,13,False,66354.12,low,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,14,False,46659.25,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,15,False,70228.08,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,16,False,33841.05,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,17,False,66172.0,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,18,False,52316.579999999994,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,19,False,42962.4,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,20,False,9210.56,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,21,False,2696.4,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,22,False,25025.73,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,23,False,35504.159999999996,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,24,False,73042.62,low,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,25,False,38083.5,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,26,False,51723.35999999999,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,27,False,40821.43,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,28,False,19619.859999999997,low,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,29,False,21966.78,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,30,False,6200.2,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,31,False,94435.47,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,32,False,48928.08,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,33,False,57813.509999999995,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,34,False,84379.12000000001,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,35,False,42822.0,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,36,False,58430.43,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,37,False,68544.39,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,38,False,16654.120000000003,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,39,False,85709.5,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,40,False,49008.52,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,41,False,37431.33,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,42,False,47191.200000000004,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,43,False,182332.04,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,44,False,13418.66,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,45,False,148789.5,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,46,False,18976.0,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,47,False,58923.53999999999,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,48,False,57359.04,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,49,False,35430.72,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,50,False,28080.149999999998,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,51,False,6633.96,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,52,False,31043.81,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,53,False,11583.539999999999,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,54,False,38675.95,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,55,False,8586.76,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,56,False,32721.12,low,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,57,False,132883.1,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,58,False,67780.90000000001,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,59,False,88833.3,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,60,False,61925.350000000006,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,61,False,156808.26,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,62,False,34174.770000000004,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,63,False,117374.25,low,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,64,False,49510.4,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,65,False,121999.24,low,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,66,False,80706.86,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,67,False,76882.5,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,68,False,171854.32,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,69,False,65613.47,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,70,False,42691.6,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,71,False,55706.88,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,72,False,31305.760000000002,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,73,False,26006.25,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,74,False,170386.6,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,75,False,14527.880000000001,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,76,False,22221.850000000002,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,77,False,26654.58,low,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,78,False,122201.46,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,79,False,48359.43,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,80,False,35805.96,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,81,False,25026.3,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,82,False,37609.48,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,83,False,52444.979999999996,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,84,False,94662.76000000001,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,85,False,89941.20000000001,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,86,False,21677.38,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,87,False,19411.100000000002,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,88,False,33058.69,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,89,False,54315.45,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,90,False,7641.84,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,91,False,46862.46,low,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,92,False,40335.79,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,93,False,59065.21,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,94,False,151016.5,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,95,False,17485.12,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,96,False,57927.28,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,97,False,4790.83,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,98,False,18612.83,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,99,False,107927.82,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,100,False,138428.95,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,101,False,20429.92,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,102,False,105280.0,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,103,False,61083.51,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,104,False,94839.3,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,105,False,61684.25,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,106,False,7334.599999999999,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,107,False,16447.2,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,108,False,171436.2,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,109,False,82656.21,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,110,False,103133.09999999999,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,111,False,34387.560000000005,low,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,112,False,51074.56,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,113,False,38223.66,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,114,False,76830.06,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,115,False,28679.36,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,116,False,13113.96,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,117,False,16335.06,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,118,False,39046.8,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,119,False,6443.28,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,120,False,151130.6,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,121,False,34228.14,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,122,False,24597.629999999997,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,123,False,162014.78,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,124,False,93791.82,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,125,False,45967.38,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,126,False,40860.0,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,127,False,149242.5,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,128,False,80561.25,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,129,False,164886.75,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,130,False,62653.5,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,131,False,19699.68,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,132,False,71406.72,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,133,False,36781.14,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,134,False,74418.72,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,135,False,115781.01999999999,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,136,False,63645.68,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,137,False,48886.92,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,138,False,69994.11,high,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,139,False,19917.6,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,140,False,122941.35,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,141,False,47924.8,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,142,False,8679.16,medium,1.0
+72cb4a4ce55f305d39e3541b3f60cdbe72dd3cb54b0dc5bf286f1b361fb217e5,kaggle_procurement_kpi,Gamma Co,GAMMA,name:GAMMA,143,100.0,143,False,40453.66,medium,1.0
+6c8d01c4f1446a491f5377bb94587909a9dca0aa7b2cced6a24f885e82209400,government_vendor,Invalid Tax Co,INVALID TAX,email:contact@invalidtax.com,1,0.0,1,True,,,1.0
+065e5d6b176cc06ee737e4a59eabab1fc9c74719b794a8362cfba9d1c2a37bcd,government_vendor,North Wind Industrial Llc,NORTH WIND INDUSTRIAL,phone:4155550140,4,100.0,1,True,,,1.0
+065e5d6b176cc06ee737e4a59eabab1fc9c74719b794a8362cfba9d1c2a37bcd,conference_csv,Northwind Industrial,NORTHWIND INDUSTRIAL,phone:4155550140,4,100.0,2,False,,,1.0
+065e5d6b176cc06ee737e4a59eabab1fc9c74719b794a8362cfba9d1c2a37bcd,erp_export,Northwind Industrial,NORTHWIND INDUSTRIAL,phone:4155550140,4,100.0,3,False,78250.5,,0.875
+065e5d6b176cc06ee737e4a59eabab1fc9c74719b794a8362cfba9d1c2a37bcd,supplier_activity_api,Northwind Industrial,NORTHWIND INDUSTRIAL,phone:4155550140,4,100.0,4,False,,medium,0.75

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="SourceIQ dashboard preview">
+  <rect width="1280" height="720" fill="#f7f8fb"/>
+  <rect x="0" y="0" width="1280" height="72" fill="#152235"/>
+  <text x="36" y="46" font-family="Arial, sans-serif" font-size="28" fill="#ffffff">SourceIQ Supplier Intelligence</text>
+  <text x="1010" y="44" font-family="Arial, sans-serif" font-size="16" fill="#c8d2e0">Pipeline Health: Passing</text>
+  <rect x="36" y="104" width="276" height="112" rx="8" fill="#ffffff" stroke="#d9dee8"/>
+  <rect x="340" y="104" width="276" height="112" rx="8" fill="#ffffff" stroke="#d9dee8"/>
+  <rect x="644" y="104" width="276" height="112" rx="8" fill="#ffffff" stroke="#d9dee8"/>
+  <rect x="948" y="104" width="296" height="112" rx="8" fill="#ffffff" stroke="#d9dee8"/>
+  <text x="58" y="139" font-family="Arial, sans-serif" font-size="15" fill="#617089">Mastered Suppliers</text>
+  <text x="58" y="186" font-family="Arial, sans-serif" font-size="42" fill="#152235">8</text>
+  <text x="362" y="139" font-family="Arial, sans-serif" font-size="15" fill="#617089">Duplicate Groups</text>
+  <text x="362" y="186" font-family="Arial, sans-serif" font-size="42" fill="#152235">4</text>
+  <text x="666" y="139" font-family="Arial, sans-serif" font-size="15" fill="#617089">Avg Completeness</text>
+  <text x="666" y="186" font-family="Arial, sans-serif" font-size="42" fill="#152235">86%</text>
+  <text x="970" y="139" font-family="Arial, sans-serif" font-size="15" fill="#617089">DQ Failures</text>
+  <text x="970" y="186" font-family="Arial, sans-serif" font-size="42" fill="#b42318">3</text>
+  <rect x="36" y="250" width="574" height="416" rx="8" fill="#ffffff" stroke="#d9dee8"/>
+  <text x="62" y="292" font-family="Arial, sans-serif" font-size="20" fill="#152235">Data Quality Failures by Rule</text>
+  <rect x="84" y="330" width="374" height="34" fill="#f04438"/>
+  <rect x="84" y="390" width="212" height="34" fill="#f79009"/>
+  <rect x="84" y="450" width="134" height="34" fill="#12b76a"/>
+  <rect x="84" y="510" width="98" height="34" fill="#12b76a"/>
+  <text x="474" y="353" font-family="Arial, sans-serif" font-size="15" fill="#152235">email_format_valid</text>
+  <text x="312" y="413" font-family="Arial, sans-serif" font-size="15" fill="#152235">phone_length_valid</text>
+  <text x="234" y="473" font-family="Arial, sans-serif" font-size="15" fill="#152235">tax_id_format_valid</text>
+  <text x="198" y="533" font-family="Arial, sans-serif" font-size="15" fill="#152235">completeness_minimum</text>
+  <rect x="638" y="250" width="606" height="416" rx="8" fill="#ffffff" stroke="#d9dee8"/>
+  <text x="664" y="292" font-family="Arial, sans-serif" font-size="20" fill="#152235">Supplier Distribution by Category</text>
+  <circle cx="794" cy="456" r="96" fill="#2e90fa"/>
+  <path d="M794 456 L794 360 A96 96 0 0 1 880 499 Z" fill="#12b76a"/>
+  <path d="M794 456 L880 499 A96 96 0 0 1 730 532 Z" fill="#f79009"/>
+  <path d="M794 456 L730 532 A96 96 0 0 1 794 360 Z" fill="#7a5af8"/>
+  <rect x="968" y="368" width="18" height="18" fill="#2e90fa"/>
+  <text x="996" y="383" font-family="Arial, sans-serif" font-size="15" fill="#152235">IT Services</text>
+  <rect x="968" y="408" width="18" height="18" fill="#12b76a"/>
+  <text x="996" y="423" font-family="Arial, sans-serif" font-size="15" fill="#152235">Industrial Supplies</text>
+  <rect x="968" y="448" width="18" height="18" fill="#f79009"/>
+  <text x="996" y="463" font-family="Arial, sans-serif" font-size="15" fill="#152235">Medical Devices</text>
+  <rect x="968" y="488" width="18" height="18" fill="#7a5af8"/>
+  <text x="996" y="503" font-family="Arial, sans-serif" font-size="15" fill="#152235">Office Supplies</text>
+</svg>

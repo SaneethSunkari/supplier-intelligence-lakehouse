@@ -1,0 +1,6 @@
+company_name,contact_email,phone_number,address,city,state,country,category,naics_code,event_name
+ABC Technologies LLC,hello@abctech.com,(212) 555-0199,12 Market St,New York,NY,USA,IT Services,541512,ProcureCon
+ABC Tech LLC,info@abctech.com,212-555-0199,12 Market Street,New York,NY,US,Information Technology,541512,ProcureCon
+Northwind Industrial,ops@northwind.com,4155550140,900 Bay Ave,San Francisco,CA,USA,Industrial Supplies,423840,Vendor Summit
+Evergreen Office Supplies,,+1 312 555 0188,77 Wacker Dr,Chicago,IL,USA,Office Supplies,453210,ProcureCon
+Bad Email Partners,not-an-email,303-555-0102,1550 Blake St,Denver,CO,USA,Professional Services,541611,Vendor Summit

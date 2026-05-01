@@ -1,0 +1,8 @@
+dq_run_id,table_name,rule_name,records_checked,records_failed,failure_percentage,run_timestamp,severity,quality_status
+dq-20260501T153127Z-0ec5116f,silver_supplier_standardized,us_state_valid,794,0,0.0,2026-05-01 15:31:27.176961,medium,pass
+dq-20260501T153127Z-0ec5116f,silver_supplier_standardized,tax_id_format_valid,794,8,0.0101,2026-05-01 15:31:27.176961,medium,watch
+dq-20260501T153127Z-0ec5116f,silver_supplier_deduplicated,duplicate_score_below_review_threshold,794,0,0.0,2026-05-01 15:31:27.176961,medium,pass
+dq-20260501T153127Z-0ec5116f,silver_supplier_standardized,completeness_minimum,794,0,0.0,2026-05-01 15:31:27.176961,medium,pass
+dq-20260501T153127Z-0ec5116f,silver_supplier_standardized,supplier_name_not_null,794,0,0.0,2026-05-01 15:31:27.176961,critical,pass
+dq-20260501T153127Z-0ec5116f,silver_supplier_standardized,email_format_valid,794,2,0.0025,2026-05-01 15:31:27.176961,high,watch
+dq-20260501T153127Z-0ec5116f,silver_supplier_standardized,phone_length_valid,794,1,0.0013,2026-05-01 15:31:27.176961,high,watch

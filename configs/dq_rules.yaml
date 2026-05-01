@@ -1,0 +1,102 @@
+rules:
+  - rule_name: supplier_name_not_null
+    table_name: silver_supplier_standardized
+    column: supplier_name
+    rule_type: not_null
+    severity: critical
+
+  - rule_name: email_format_valid
+    table_name: silver_supplier_standardized
+    column: email_clean
+    rule_type: email
+    severity: high
+    allow_null: true
+
+  - rule_name: phone_length_valid
+    table_name: silver_supplier_standardized
+    column: phone_digits
+    rule_type: phone
+    severity: high
+    allow_null: true
+
+  - rule_name: us_state_valid
+    table_name: silver_supplier_standardized
+    column: state_clean
+    rule_type: valid_values
+    severity: medium
+    allow_null: true
+    valid_values:
+      - AL
+      - AK
+      - AZ
+      - AR
+      - CA
+      - CO
+      - CT
+      - DE
+      - FL
+      - GA
+      - HI
+      - ID
+      - IL
+      - IN
+      - IA
+      - KS
+      - KY
+      - LA
+      - ME
+      - MD
+      - MA
+      - MI
+      - MN
+      - MS
+      - MO
+      - MT
+      - NE
+      - NV
+      - NH
+      - NJ
+      - NM
+      - NY
+      - NC
+      - ND
+      - OH
+      - OK
+      - OR
+      - PA
+      - RI
+      - SC
+      - SD
+      - TN
+      - TX
+      - UT
+      - VT
+      - VA
+      - WA
+      - WV
+      - WI
+      - WY
+
+  - rule_name: tax_id_format_valid
+    table_name: silver_supplier_standardized
+    column: tax_id_clean
+    rule_type: regex
+    severity: medium
+    allow_null: true
+    pattern: '^\\d{2}-\\d{7}$'
+
+  - rule_name: duplicate_score_below_review_threshold
+    table_name: silver_supplier_deduplicated
+    column: duplicate_score
+    rule_type: max_value
+    severity: medium
+    allow_null: false
+    max_value: 100
+
+  - rule_name: completeness_minimum
+    table_name: silver_supplier_standardized
+    column: completeness_score
+    rule_type: min_value
+    severity: medium
+    allow_null: false
+    min_value: 0.45

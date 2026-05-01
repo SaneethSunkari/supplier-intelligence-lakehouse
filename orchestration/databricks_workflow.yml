@@ -1,0 +1,26 @@
+resources:
+  jobs:
+    sourceiq_supplier_intelligence_lakehouse:
+      name: sourceiq_supplier_intelligence_lakehouse
+      tasks:
+        - task_key: ingest_raw_sources
+          spark_python_task:
+            python_file: ../notebooks/01_bronze_ingestion.py
+
+        - task_key: transform_to_silver
+          depends_on:
+            - task_key: ingest_raw_sources
+          spark_python_task:
+            python_file: ../notebooks/02_silver_cleaning.py
+
+        - task_key: run_deduplication
+          depends_on:
+            - task_key: transform_to_silver
+          spark_python_task:
+            python_file: ../notebooks/03_deduplication.py
+
+        - task_key: run_quality_checks_and_build_gold
+          depends_on:
+            - task_key: run_deduplication
+          spark_python_task:
+            python_file: ../notebooks/04_gold_modeling.py

@@ -1,0 +1,4 @@
+{"activity_supplier_name":"ABC Tech LLC","activity_email":"info@abctech.com","activity_phone":"2125550199","city":"New York","state":"NY","country":"US","activity_count":17,"last_activity_date":"2026-04-27","risk_signal":"low"}
+{"activity_supplier_name":"Northwind Industrial","activity_email":"ops@northwind.com","activity_phone":"4155550140","city":"San Francisco","state":"CA","country":"US","activity_count":9,"last_activity_date":"2026-04-21","risk_signal":"medium"}
+{"activity_supplier_name":"Evergreen Office Supplies","activity_email":"orders@evergreenoffice.com","activity_phone":"3125550188","city":"Chicago","state":"IL","country":"US","activity_count":6,"last_activity_date":"2026-04-20","risk_signal":"low"}
+{"activity_supplier_name":"Bad Email Partners","activity_email":"not-an-email","activity_phone":"3035550102","city":"Denver","state":"CO","country":"US","activity_count":3,"last_activity_date":"2026-04-18","risk_signal":"high"}

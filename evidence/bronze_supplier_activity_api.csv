@@ -1,0 +1,5 @@
+activity_count,activity_email,activity_phone,activity_supplier_name,city,country,last_activity_date,risk_signal,state,source_system,ingestion_timestamp,batch_id,raw_file_name,source_priority
+17,info@abctech.com,2125550199,ABC Tech LLC,New York,US,2026-04-27,low,NY,supplier_activity_api,2026-05-01 15:31:23.139101,20260501T153120Z-593aa3fd,file:///opt/sourceiq/data/raw/activity/supplier_activity.json,4
+9,ops@northwind.com,4155550140,Northwind Industrial,San Francisco,US,2026-04-21,medium,CA,supplier_activity_api,2026-05-01 15:31:23.139101,20260501T153120Z-593aa3fd,file:///opt/sourceiq/data/raw/activity/supplier_activity.json,4
+6,orders@evergreenoffice.com,3125550188,Evergreen Office Supplies,Chicago,US,2026-04-20,low,IL,supplier_activity_api,2026-05-01 15:31:23.139101,20260501T153120Z-593aa3fd,file:///opt/sourceiq/data/raw/activity/supplier_activity.json,4
+3,not-an-email,3035550102,Bad Email Partners,Denver,US,2026-04-18,high,CO,supplier_activity_api,2026-05-01 15:31:23.139101,20260501T153120Z-593aa3fd,file:///opt/sourceiq/data/raw/activity/supplier_activity.json,4

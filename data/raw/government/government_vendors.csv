@@ -1,0 +1,5 @@
+legal_business_name,vendor_email,vendor_phone,street_address,city_name,state_code,country_code,vendor_category,naics,small_business_flag,tax_identifier
+ABC Technologies,procurement@abctech.com,2125550199,12 Market Street,New York,NY,US,IT Services,541512,Y,12-3456789
+Acme Medical Devices,sales@acmemed.example,6175550103,44 Beacon St,Boston,MA,US,Medical Devices,339112,N,98-7654321
+North Wind Industrial LLC,ops@northwind.com,4155550140,900 Bay Avenue,San Francisco,CA,US,Industrial Supplies,423840,Y,22-1111111
+Invalid Tax Co,contact@invalidtax.com,555,1 Nowhere,Austin,TX,US,Professional Services,541611,N,BAD

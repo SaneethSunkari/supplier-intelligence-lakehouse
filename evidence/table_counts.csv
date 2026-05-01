@@ -1,0 +1,13 @@
+layer,table,rows,columns
+bronze,conference_csv,5,15
+bronze,government_vendor,4,16
+bronze,erp_export,4,16
+bronze,supplier_activity_api,4,14
+bronze,kaggle_procurement_kpi,777,16
+silver,supplier_standardized,794,55
+silver,supplier_deduplicated,794,61
+gold,gold_supplier_master,11,22
+gold,gold_supplier_quality_metrics,7,9
+gold,gold_supplier_spend_summary,11,4
+gold,gold_supplier_category_analytics,15,6
+gold,gold_ml_supplier_features,11,9

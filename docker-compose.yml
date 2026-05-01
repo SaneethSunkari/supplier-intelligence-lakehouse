@@ -1,0 +1,9 @@
+services:
+  sourceiq-pipeline:
+    build: .
+    environment:
+      LAKEHOUSE_FORMAT: parquet
+      SPARK_SQL_SHUFFLE_PARTITIONS: 4
+    volumes:
+      - .:/opt/sourceiq
+    command: python -m src.pipeline
