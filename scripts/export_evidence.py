@@ -112,6 +112,7 @@ def export_walkthrough(spark, counts_pdf: pd.DataFrame) -> None:
     with (EVIDENCE_DIR / "run_walkthrough.md").open("w", encoding="utf-8") as handle:
         handle.write("# SourceIQ End-to-End Run Evidence\n\n")
         handle.write("This run includes the Kaggle Procurement KPI Analysis Dataset as `kaggle_procurement_kpi`.\n\n")
+        handle.write("Validation: the project is covered by GitHub Actions CI running `pytest -q` on every push.\n\n")
         handle.write("## Layer Counts\n\n")
         handle.write(md_table(counts_pdf))
 

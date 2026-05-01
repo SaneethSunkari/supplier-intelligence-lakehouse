@@ -2,6 +2,8 @@
 
 This run includes the Kaggle Procurement KPI Analysis Dataset as `kaggle_procurement_kpi`.
 
+Validation: the project is covered by GitHub Actions CI running `pytest -q` on every push.
+
 ## Layer Counts
 
 | layer | table | rows | columns |
