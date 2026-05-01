@@ -212,7 +212,7 @@ For a procurement intelligence team, the platform answers practical questions:
 | Reporting | Dashboard spec and SQL pages |
 | GitHub | CI workflow, Docker, docs, tests |
 
-## CEO Demo Evidence
+## Verified Run Evidence
 
 After the latest verified run, the evidence pack in [evidence/run_walkthrough.md](evidence/run_walkthrough.md) shows:
 
