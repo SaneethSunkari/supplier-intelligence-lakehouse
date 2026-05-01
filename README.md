@@ -196,22 +196,7 @@ For a procurement intelligence team, the platform answers practical questions:
 - Which supplier records are incomplete or invalid?
 - Which suppliers have defect, compliance, delivery, or risk signals?
 - Which mastered supplier features are ready for analytics or ML models?
-
-## JD Alignment
-
-| JD Requirement | Project Feature |
-| --- | --- |
-| Python | Modular ETL package in `src/` |
-| PySpark | Bronze/Silver/Gold transformations |
-| Databricks | Notebook scripts and workflow YAML |
-| Delta Lake | `LAKEHOUSE_FORMAT=delta` support |
-| Data quality | Config-driven DQ framework |
-| Deduplication | Exact and fuzzy supplier matching |
-| SQL | Dashboard and Gold metric queries |
-| Orchestration | Airflow DAG and Databricks job |
-| Reporting | Dashboard spec and SQL pages |
-| GitHub | CI workflow, Docker, docs, tests |
-
+ 
 ## Verified Run Evidence
 
 After the latest verified run, the evidence pack in [evidence/run_walkthrough.md](evidence/run_walkthrough.md) shows:
