@@ -187,7 +187,7 @@ python -m src.pipeline
 
 ## Business Impact
 
-This project demonstrates the core SourceIQ-style data platform work: multi-source supplier ingestion, schema normalization, trusted supplier mastering, quality observability, analytics marts, orchestration, SQL reporting, and ML-ready feature generation.
+This project demonstrates the core  data platform work: multi-source supplier ingestion, schema normalization, trusted supplier mastering, quality observability, analytics marts, orchestration, SQL reporting, and ML-ready feature generation.
 
 For a procurement intelligence team, the platform answers practical questions:
 
